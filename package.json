@@ -1,0 +1,20 @@
+{
+  "name": "myblog",
+  "version": "0.0.1",
+  "description": "this is my first blog.",
+  "main": "index.js",
+  "authors": {
+    "name": "yumo",
+    "email": "1015871462@qq.com"
+  },
+  "repository": "repo/myblog",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.0.0",
+    "@vuepress/theme-blog": "^1.0.0"
+  }
+}
